@@ -1,171 +1,195 @@
 header{
-   display: flex;
-   align-items: center;
-   border: 1px solid black;
-   justify-content: space-around;
-}
-body{
-    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(238, 62, 62, 0) 100%);
-}
-nav a{
-    margin-right: 2rem;
-    color: #191919;
-    text-decoration: none;
-}
-nav input{
-    background-color: #f54748;
-    width: 162px;
-    height: 45px;
-    border-radius: 50px;
-    border: none;
-    color: bisque;
-}
-.ti #um{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+ }
+ body{
+     background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(238, 62, 62, 0) 100%);
+ }
+ nav a{
+     margin-right: 2rem;
+     color: #191919;
+     text-decoration: none;
+ }
+ nav input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+ .ti #um{
+     display: flex;
+     position: relative;
+     float: right;
+ }
+ .main h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 58px;
+     line-height: 78px;
+ }
+ .main p{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+     letter-spacing: -0.01em;    
+ }
+ .main input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+ .ti #dois{
+     margin-top: 6rem;
+ }
+ .ti #dois input{
+     margin-top: 2rem;
+     margin-bottom: 4rem;
+     width: 300px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     text-align: center;
+     color: black;
+     background-color: white;
+ }
+ .ta #tres{
+     margin-top: 6rem;
+     text-align: center;
+ }
+ .ta #quatro h2{
+     font-family: sans-serif;
+     color: red;
+     font-weight: 700px;
+ }
+ .ta #quatro{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 5px;
+ }
+ .te #a img{
+     display: flex;
+     position: static;
+     float: left;
+ }
+ .te #a{
+     margin-top: 12rem;
+     text-align: center;
+ }
+ .te #a p{
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+ .te #b{
+    text-align: center;
     display: flex;
     position: relative;
-    float: right;
-}
-.main h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 58px;
-    line-height: 78px;
-}
-.main p{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.01em;    
-}
-.main input{
-    background-color: #f54748;
-    width: 162px;
-    height: 45px;
-    border-radius: 50px;
-    border: none;
-    color: bisque;
-}
-.ti #dois{
-    margin-top: 6rem;
-}
-.ti #dois input{
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    width: 300px;
-    height: 45px;
-    border-radius: 50px;
-    border: none;
+    right:-10%;
+ }
+ .te #c{
     text-align: center;
-    color: black;
-    background-color: white;
-}
-.ta #tres{
-    margin-top: 6rem;
-    text-align: center;
-}
-.ta #quatro h2{
-    font-family: sans-serif;
-    color: red;
-    font-weight: 700px;
-}
-.ta #quatro{
     display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-}
-.te #a img{
-    display: flex;
-    position: static;
-    float: left;
-}
-.te #a{
-    margin-top: 12rem;
-    text-align: center;
-}
-.te #a p{
-    margin-bottom: 3rem;
-}
-.te #a input{
-    margin-top: 2rem;
-    margin-bottom: 20rem;
-}
-.to h1{
-    text-align: center;
-}
-.to #inp input{
-    text-align: center;
-    width: 98px;
-    height: 44px;
-    margin-bottom: 6rem;
-}
-.to #d{
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-}
-.to #e{
-    display: flex;
-    flex-direction: row;
-    color:#000000;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    padding: 5px;
-}
-.to #f h1{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #F54748;
-}
-.to #e input{
-    margin-bottom: 10rem;
-}
-.tu #r #rr{
-    display: flex;
-    position: static;
-    float: left;
-}
-.tu #r{
-    text-align: center;
-    align-items: center;
-    margin-bottom: 20rem;
-}
-.footer h2{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    color: #F54748;
-}
-.footer h3{
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #191919;
-}
-.footer #fo{
-    text-align: center;
-    align-items: space-between;
-}
+    position: relative;
+    right:10%;
+ }
+ .te #a input{
+     margin-top: 2rem;
+     margin-bottom: 20rem;
+     text-align: center;
+     border: 2px solid black;
+ }
+ .to h1{
+     text-align: center;
+ }
+ .to #inp input{
+     margin-top: 1rem;
+     text-align: center;
+     width: 98px;
+     height: 44px;
+     margin-bottom: 6rem;
+ }
+ .to #inp{
+     display: flex;
+     position: relative;
+     align-items: center;
+     width: 70%;
+ }
+ .to #d{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 5px;
+ }
+ .to #e{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 5px;
+ }
+ .to #f h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 33px;
+     text-align: center;
+     text-transform: capitalize;
+     color: #F54748;
+ }
+ .to #e input{
+     margin-bottom: 10rem;
+ }
+ .tu #r #rr{
+     display: flex;
+     position: static;
+     float: left;
+ }
+ .tu #r{
+     text-align: center;
+     align-items: center;
+     margin-bottom: 20rem;
+ }
+ .footer h2{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 44px;
+     color: #F54748;
+ }
+ .footer h3{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     color: #191919;
+ }
+ .footer #fo{
+     display: flex;
+     position: relative;
+     text-align: center;
+     align-items: space-between;
+ }
