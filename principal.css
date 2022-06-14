@@ -1,11 +1,9 @@
 header{
     display: flex;
     align-items: center;
-    border: 1px solid black;
     justify-content: space-around;
- }
- body{
-     background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(238, 62, 62, 0) 100%);
+    font-size: 19px;
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
  }
  nav a{
      margin-right: 2rem;
@@ -48,30 +46,41 @@ header{
      border: none;
      color: bisque;
  }
- .ti #dois{
-     margin-top: 6rem;
+.section {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10rem;
  }
  .ti #dois input{
      margin-top: 2rem;
-     margin-bottom: 4rem;
-     width: 300px;
+     width: 500px;
      height: 45px;
      border-radius: 50px;
      border: none;
      text-align: center;
      color: black;
-     background-color: white;
+     background-color: rgb(223, 220, 220);
  }
  .ta #tres{
      margin-top: 6rem;
      text-align: center;
  }
- .ta #quatro h2{
+ .diva p{
+   width:90%;
+ }
+ .lol{
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    border-radius: 20px;
+    padding:1rem;
+ }
+ .ta .quatro h2{
      font-family: sans-serif;
      color: red;
      font-weight: 700px;
  }
- .ta #quatro{
+ .ta .quatro{
      display: flex;
      flex-direction: row;
      color:#000000;
@@ -81,6 +90,7 @@ header{
      margin-top: 3rem;
      padding: 5px;
  }
+
  .te #a img{
      display: flex;
      position: static;
@@ -98,7 +108,10 @@ header{
     text-align: center;
     display: flex;
     position: relative;
-    right:-10%;
+    justify-content: center;
+    border-bottom: 1px solid;
+    width: 500px;
+    height: 500px;
  }
  .te #c{
     text-align: center;
@@ -135,7 +148,6 @@ header{
      width: 80%;
      text-align: center;
      margin-bottom: 2rem;
-     margin-top: 3rem;
      padding: 5px;
  }
  .to #e{
@@ -158,19 +170,14 @@ header{
      text-transform: capitalize;
      color: #F54748;
  }
- .to #e input{
-     margin-bottom: 10rem;
- }
- .tu #r #rr{
-     display: flex;
-     position: static;
-     float: left;
- }
- .tu #r{
-     text-align: center;
-     align-items: center;
-     margin-bottom: 20rem;
- }
+ .tu{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC55E 73.18%);
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
  .footer h2{
      font-family: 'Sofia Pro';
      font-style: normal;
@@ -192,4 +199,7 @@ header{
      position: relative;
      text-align: center;
      align-items: space-between;
+ }
+ .but{
+    align-items: center;
  }
